@@ -1,0 +1,99 @@
+/* Reset.less
+ * Props to Eric Meyer (meyerweb.com) for his CSS reset file. We're using an adapted version here	that cuts out some of the reset HTML elements we will never need here (i.e., dfn, samp, etc).
+ * ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+  background-color: #161c27;
+  font-family: Roboto, sans-serif;
+}
+.title-text {
+  color: #888;
+}
+
+.bg-theme-color {
+  background-color: #ca3e47;
+}
+.text-color {
+  color: #ca3e47;
+}
+.popup_inner {
+  position: absolute;
+  left: 30%;
+  right: 30%;
+  top: 30%;
+  bottom: 30%;
+  margin: auto;
+  background-color: #0b0b0e;
+}
+.login {
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  z-index: 50;
+}
+.fontawesome {
+  display: inline-block;
+  width: 1.5em;
+  height: auto;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+  color: rgba(255, 255, 255, 0.5);
+}
+@media screen and (min-width: 900px) {
+  .aws-sld {
+    height: 250px !important;
+  }
+}
+
+.h-325 {
+  height: 300px;
+}
+
+.w-250 {
+  width: 185px;
+}
+
+.h-237 {
+  height: 237px;
+}
+.w-168 {
+  width: 168px;
+}
+
+.h-30 {
+  height: 110px;
+}
+
+.__react_component_tooltip {
+  padding: 0px 0px !important;
+}
+.__react_component_tooltip.type-dark {
+  background-color: none !important;
+  width: 400px !important;
+}
+
+.left-3\/5 {
+  left: 45%;
+}
+
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
