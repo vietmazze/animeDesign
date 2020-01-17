@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/animeDesign/static/css/main.d1b05096.chunk.css",
+    "main.js": "/animeDesign/static/js/main.7cf978b2.chunk.js",
+    "main.js.map": "/animeDesign/static/js/main.7cf978b2.chunk.js.map",
+    "runtime-main.js": "/animeDesign/static/js/runtime-main.6a610638.js",
+    "runtime-main.js.map": "/animeDesign/static/js/runtime-main.6a610638.js.map",
+    "static/js/2.999f5876.chunk.js": "/animeDesign/static/js/2.999f5876.chunk.js",
+    "static/js/2.999f5876.chunk.js.map": "/animeDesign/static/js/2.999f5876.chunk.js.map",
+    "index.html": "/animeDesign/index.html",
+    "precache-manifest.08af09a4001a2278d31e3ba022fc6210.js": "/animeDesign/precache-manifest.08af09a4001a2278d31e3ba022fc6210.js",
+    "service-worker.js": "/animeDesign/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/animeDesign/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.999f5876.chunk.js.LICENSE": "/animeDesign/static/js/2.999f5876.chunk.js.LICENSE",
+    "static/media/logo.svg": "/animeDesign/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a610638.js",
+    "static/js/2.999f5876.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.7cf978b2.chunk.js"
+  ]
+}
